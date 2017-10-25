@@ -1,0 +1,107 @@
+@import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro';
+
+@media (min-width: 1200px) {
+    .container{
+        width: 100%;
+    }
+}
+
+body {
+	padding-top: 15px;
+	background-color: #2d3035;
+	color: #feffff;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+ul {
+    margin: 0;
+    padding: 0px 20px 0px 20px;
+}
+
+.timeframe {
+	position: fixed;
+	bottom: 30px;
+	right: 20px;
+	text-align: center;
+}
+
+.timeframe .time {
+	text-align: center;
+	font-size: 10rem;
+}
+
+.timeframe .week {
+	display: block;
+	margin-top: -20px;
+	font-size: 3.7rem;
+}
+
+.logon img {
+	width: 60px;
+	position: fixed;
+	left: 10px;
+	bottom: 30px;
+}
+
+.news-padding {
+	padding: 0px;
+}
+
+.panel {
+	background-color: #31363D;
+}
+
+.panel-default {
+	border-color: #1E2023;
+}
+
+@keyframes blink { 
+   50% { border-color: #ff0000; } 
+}
+.danger{
+    animation: blink 1s step-end infinite alternate;
+}
+
+.panel-default .panel-heading {
+	background-color: #252A31;
+	border-color: #1E2023;
+	color: #feffff;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.news {
+	font-size: 16px;
+	/*font-weight: bold;*/
+}
+
+.nyhet {
+	width: 100%;
+	/*min-height: 180px;*/
+	padding: 20px;
+}
+
+.nyhet:nth-child(even) {
+	background-color: #383D43;
+}
+
+.author {
+	font-size: 12px;	
+	color: #71777E;
+	/*padding-left: 15px;*/
+}
+
+/*.animation {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width:100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	overflow: hidden;
+	white-space: nowrap;
+	box-sizing: border-box;
+	animation: marquee 80s linear infinite;
+}*/
